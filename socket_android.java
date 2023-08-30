@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             service.execute(new Runnable() {
                 @Override
                 public void run() {
-                    String serverAddress = "192.168.1.12";
+                    String serverAddress = "your device address";
                     int serverPort = 80;
                     try {
                         Socket socket = new Socket(serverAddress, serverPort);
