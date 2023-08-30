@@ -4,8 +4,8 @@
  
 
 
-const char* ssid = "TOPNET_5218";
-const char* password = "bz7jr189bp";
+const char* ssid = "your ssid";
+const char* password = "your password";
 const int ledPin = 18;
 
 IPAddress local_IP(192, 168, 1, 12); 
